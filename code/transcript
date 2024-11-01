@@ -1,0 +1,425 @@
+# Compile of TB.sv was successful.
+vsim -gui work.tb_convolution2D
+# vsim -gui work.tb_convolution2D 
+# Start time: 21:54:14 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.tb_convolution2D
+# Loading work.convolution2D
+add wave -position end  sim:/tb_convolution2D/N
+add wave -position end  sim:/tb_convolution2D/K
+add wave -position end  sim:/tb_convolution2D/clk
+add wave -position end  sim:/tb_convolution2D/rst_n
+add wave -position end  sim:/tb_convolution2D/start
+add wave -position end  sim:/tb_convolution2D/done
+add wave -position end  sim:/tb_convolution2D/image
+add wave -position end  sim:/tb_convolution2D/kernel
+add wave -position end  sim:/tb_convolution2D/result
+run -all
+# Result:
+# [0][0]: 0000
+# [0][1]: 0000
+# [1][0]: 0000
+# [1][1]: 0000
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(53)
+#    Time: 1010 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 53
+# Compile of TB.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_convolution2D
+run -all
+# Result:
+# [0][0]: 0000
+# [0][1]: 0000
+# [1][0]: 0000
+# [1][1]: 0000
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(53)
+#    Time: 1010 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 53
+# Compile of TB.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_convolution2D
+run -all
+# Result:
+# [0][0]: 0000
+# [0][1]: 0000
+# [1][0]: 0000
+# [1][1]: 0000
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(57)
+#    Time: 1030 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 57
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv was successful with warnings.
+# Compile of Convolution_TopLevel.sv was successful.
+restart -f
+# Loading work.tb_convolution2D
+# Loading work.convolution2D
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# 11 compiles, 0 failed with no errors.
+run -all
+# Result:
+# [0][0]: 0102
+# [0][1]: 0126
+# [1][0]: 0192
+# [1][1]: 01b6
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(57)
+#    Time: 1030 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 57
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run -all
+# Result:
+# [0][0]: 0102
+# [0][1]: 0126
+# [1][0]: 0192
+# [1][1]: 01b6
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(57)
+#    Time: 1030 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 57
+# A time value could not be extracted from the current line
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv was successful with warnings.
+# Compile of Convolution_TopLevel.sv was successful.
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_convolution2D
+# Loading work.convolution2D
+run -all
+# Result:
+# [0][0]: 0102
+# [0][1]: 0126
+# [1][0]: 0192
+# [1][1]: 01b6
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(59)
+#    Time: 2030 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 59
+# Compile of TB.sv was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_convolution2D
+run -all
+# Result:
+# [0][0]: 0102
+# [0][1]: 0126
+# [1][0]: 0192
+# [1][1]: 01b6
+# ** Note: $finish    : C:/Users/Danial/Desktop/Project4-New/TB.sv(56)
+#    Time: 15 ns  Iteration: 2  Instance: /tb_convolution2D
+# 1
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 56
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv was successful with warnings.
+# Compile of Convolution_TopLevel.sv was successful.
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_convolution2D
+# Loading work.convolution2D
+run -all
+# Result:
+# [0][0]: 258
+# [0][1]: 294
+# [1][0]: 402
+# [1][1]: 438
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(59)
+#    Time: 2030 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 59
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv failed with 1 errors.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv was successful with warnings.
+# Compile of Convolution_TopLevel.sv was successful.
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# 11 compiles, 1 failed with 1 error.
+# Compile of TB.sv failed with 1 errors.
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv was successful with warnings.
+# Compile of Convolution_TopLevel.sv was successful.
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# 11 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_convolution2D
+# Loading work.convolution2D
+run -all
+# Result:
+# [0][0]: 258
+# [0][1]: 294
+# [0][2]: 315
+# [1][0]: 402
+# [1][1]: 438
+# [1][2]: 459
+# [2][0]: 210
+# [2][1]: 246
+# [2][2]: 267
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/TB.sv(60)
+#    Time: 2030 ns  Iteration: 0  Instance: /tb_convolution2D
+# Break in Module tb_convolution2D at C:/Users/Danial/Desktop/Project4-New/TB.sv line 60
+# Compile of MaxPool.sv was successful.
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv failed with 1 errors.
+# Compile of Convolution_TopLevel.sv was successful.
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# Compile of MaxPoolingTB.sv failed with 1 errors.
+# 12 compiles, 2 failed with 2 errors.
+# Compile of Max_Pooling.sv was successful with warnings.
+# Compile of MaxPoolingTB.sv was successful.
+# Compile of Max_Pooling.sv was successful with warnings.
+quit -sim
+# End time: 22:37:38 on Apr 20,2023, Elapsed time: 0:43:24
+# Errors: 0, Warnings: 9
+vsim -gui work.tb_max_pooling_3x3
+# vsim -gui work.tb_max_pooling_3x3 
+# Start time: 22:37:52 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.tb_max_pooling_3x3
+# Loading work.Max_Pool
+# ** Error: (vsim-3063) Port 'image' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_max_pooling_3x3/max2D File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 21
+# ** Error: (vsim-3063) Port 'result' not found in the connected module (6th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_max_pooling_3x3/max2D File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 21
+# Error loading design
+# End time: 22:37:52 on Apr 20,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 1
+# Compile of MaxPoolingTB.sv was successful.
+vsim -gui work.tb_max_pooling_3x3
+# vsim -gui work.tb_max_pooling_3x3 
+# Start time: 22:38:42 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.tb_max_pooling_3x3
+# Loading work.Max_Pool
+# ** Error: (vsim-3906) Connection type 'reg[7:0]$[0:4][0:4]' is incompatible with 'wire[7:0][4:0][4:0]' for  port (image_in):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_max_pooling_3x3/max2D File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 21
+# ** Error: (vsim-3906) Connection type 'reg signed[15:0]$[0:2][0:2]' is incompatible with 'wire[7:0][0:0][0:0]' for  port (image_out):  Can't mix packed and unpacked types.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_max_pooling_3x3/max2D File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 21
+# Error loading design
+# End time: 22:38:43 on Apr 20,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 2
+# Compile of MaxPoolingTB.sv was successful with warnings.
+# Compile of Max_Pooling.sv failed with 5 errors.
+# Compile of Max_Pooling.sv failed with 1 errors.
+# Compile of Max_Pooling.sv was successful with warnings.
+# Compile of MaxPoolingTB.sv was successful with warnings.
+vsim -gui work.max_pool_tb
+# vsim -gui work.max_pool_tb 
+# Start time: 22:50:55 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.max_pool_tb
+# Loading work.max_pool
+# ** Warning: (vsim-3015) [PCDPC] - Port size (40) does not match connection size (200) for port 'image_in'. The port definition is at: C:/Users/Danial/Desktop/Project4-New/Max_Pooling.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /max_pool_tb/dut File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 70
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (40) does not match connection size (200) for port 'image_in'. The port definition is at: C:/Users/Danial/Desktop/Project4-New/Max_Pooling.sv(10).
+#    Time: 0 ps  Iteration: 0  Instance: /max_pool_tb/dut File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 70
+add wave -position end  sim:/max_pool_tb/WIDTH
+add wave -position end  sim:/max_pool_tb/N
+add wave -position end  sim:/max_pool_tb/K
+add wave -position end  sim:/max_pool_tb/IMAGE_SIZE
+add wave -position end  sim:/max_pool_tb/KERNEL_SIZE
+add wave -position end  sim:/max_pool_tb/clk
+add wave -position end  sim:/max_pool_tb/rst
+add wave -position end  sim:/max_pool_tb/image_in
+add wave -position end  sim:/max_pool_tb/image_out
+run -all
+# Input Image:
+#           0           1           2           3           4 
+#           5           6           7           8           9 
+#          10          11          12          13          14 
+#          15          16          17          18          19 
+#          20          21          22          23          24 
+# 
+# Kernel:
+#           0           1           2 
+#           3           4           5 
+#           6           7           8 
+# 
+# Output Image:
+# 0 
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv(66)
+#    Time: 40 ps  Iteration: 0  Instance: /max_pool_tb
+# Break in Module max_pool_tb at C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv line 66
+quit -sim
+# End time: 22:53:49 on Apr 20,2023, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 2
+# Compile of MaxPoolingTB.sv was successful with warnings.
+vsim -gui work.max_pool_tb
+# vsim -gui work.max_pool_tb 
+# Start time: 22:54:09 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.max_pool_tb
+# Loading work.max_pool
+# ** Fatal: (vsim-13173) Illegal unpacked array concatenation. The number of elements (5) doesn't match with the type's width (4).
+#    Time: 0 ps  Iteration: 0  Region: /max_pool_tb/#ublk#121088194#18 File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 20
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 22:54:09 on Apr 20,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of MaxPoolingTB.sv was successful with warnings.
+vsim -gui work.max_pool_tb
+# vsim -gui work.max_pool_tb 
+# Start time: 22:54:56 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.max_pool_tb
+# Loading work.max_pool
+# ** Fatal: (vsim-13173) Illegal unpacked array concatenation. The number of elements (4) doesn't match with the type's width (5).
+#    Time: 0 ps  Iteration: 0  Region: /max_pool_tb/#ublk#121088194#18 File: C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv Line: 20
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 22:54:57 on Apr 20,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of Max_Pooling.sv failed with 14 errors.
+# Compile of Max_Pooling.sv was successful.
+# Compile of MaxPoolingTB.sv was successful.
+vsim -gui work.tb_max_pool
+# vsim -gui work.tb_max_pool 
+# Start time: 23:07:37 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.tb_max_pool
+# Loading work.max_pool
+add wave -position end  sim:/tb_max_pool/N
+add wave -position end  sim:/tb_max_pool/K
+add wave -position end  sim:/tb_max_pool/clk
+add wave -position end  sim:/tb_max_pool/rst
+add wave -position end  sim:/tb_max_pool/image_in
+add wave -position end  sim:/tb_max_pool/image_out
+run -all
+# Test Passed
+# ** Note: $finish    : C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv(72)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_max_pool
+# 1
+# Break in Module tb_max_pool at C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv line 72
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv was successful.
+# Compile of Convolution_TopLevel.sv was successful.
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# Compile of MaxPoolingTB.sv was successful.
+# 12 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.tb_max_pool
+# Loading work.max_pool
+run -all
+# Result:
+# [0][0]: 6
+# [0][1]: 8
+# [0][2]: x
+# [0][3]: x
+# [1][0]: 16
+# [1][1]: 18
+# [1][2]: x
+# [1][3]: x
+# [2][0]: x
+# [2][1]: x
+# [2][2]: x
+# [2][3]: x
+# [3][0]: x
+# [3][1]: x
+# [3][2]: x
+# [3][3]: x
+# ** Note: $finish    : C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv(69)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_max_pool
+# 1
+# Break in Module tb_max_pool at C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv line 69
+# Compile of MAC_Unit.sv was successful.
+# Compile of kernel3_3.sv was successful with warnings.
+# Compile of TB.sv was successful.
+# Compile of up_counter.sv was successful.
+# Compile of window_selector.sv was successful.
+# Compile of ShiftRegister.sv was successful.
+# Compile of Max_Pooling.sv was successful.
+# Compile of Convolution_TopLevel.sv was successful.
+# Compile of Convolution_TopLevel_Controller.sv was successful.
+# Compile of ConvolutionTopLevelTB.sv was successful.
+# Compile of Convolution_Datapath.sv was successful.
+# Compile of MaxPoolingTB.sv failed with 4 errors.
+# 12 compiles, 1 failed with 4 errors.
+quit -sim
+# End time: 23:13:26 on Apr 20,2023, Elapsed time: 0:05:49
+# Errors: 0, Warnings: 2
+# Compile of MaxPoolingTB.sv failed with 4 errors.
+# Compile of MaxPoolingTB.sv failed with 4 errors.
+# Compile of MaxPoolingTB.sv was successful.
+# Compile of MaxPoolingTB.sv failed with 1 errors.
+# Compile of MaxPoolingTB.sv was successful.
+vsim -gui work.tb_max_pool
+# vsim -gui work.tb_max_pool 
+# Start time: 23:15:57 on Apr 20,2023
+# Loading sv_std.std
+# Loading work.tb_max_pool
+# Loading work.max_pool
+add wave -position end  sim:/tb_max_pool/N
+add wave -position end  sim:/tb_max_pool/K
+add wave -position end  sim:/tb_max_pool/clk
+add wave -position end  sim:/tb_max_pool/rst
+add wave -position end  sim:/tb_max_pool/image_in
+add wave -position end  sim:/tb_max_pool/image_out
+run -all
+# Result
+# [0][0]: 6
+# [0][1]: 8
+# [1][0]: 16
+# [1][1]: 18
+# ** Note: $stop    : C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv(69)
+#    Time: 1060 ns  Iteration: 0  Instance: /tb_max_pool
+# Break in Module tb_max_pool at C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv line 69
+# End time: 23:19:57 on Apr 20,2023, Elapsed time: 0:04:00
+# Errors: 0, Warnings: 6

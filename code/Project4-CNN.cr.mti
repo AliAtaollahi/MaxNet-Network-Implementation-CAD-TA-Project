@@ -1,0 +1,83 @@
+C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/MaxPoolingTB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_max_pool
+
+Top level modules:
+	tb_max_pool
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/up_counter.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/up_counter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bit_counter
+
+Top level modules:
+	bit_counter
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/Max_Pooling.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/Max_Pooling.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module max_pool
+
+Top level modules:
+	max_pool
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/Convolution_Datapath.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/Convolution_Datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Convolution_Datapath
+
+Top level modules:
+	Convolution_Datapath
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/TB.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_convolution2D
+
+Top level modules:
+	tb_convolution2D
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/window_selector.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/window_selector.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module window_selector_KxK
+
+Top level modules:
+	window_selector_KxK
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/Convolution_TopLevel.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/Convolution_TopLevel.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Conv3x3
+
+Top level modules:
+	Conv3x3
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/ShiftRegister.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/ShiftRegister.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shift_register
+
+Top level modules:
+	shift_register
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/Convolution_TopLevel_Controller.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/Convolution_TopLevel_Controller.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Conv_TopLevel_Controller
+
+Top level modules:
+	Conv_TopLevel_Controller
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/kernel3_3.sv {2 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/kernel3_3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module convolution2D
+** Warning: C:/Users/Danial/Desktop/Project4-New/kernel3_3.sv(5): (vlog-13314) Defaulting port 'image' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+** Warning: C:/Users/Danial/Desktop/Project4-New/kernel3_3.sv(6): (vlog-13314) Defaulting port 'kernel' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	convolution2D
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/MAC_Unit.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/MAC_Unit.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mac_manual
+
+Top level modules:
+	mac_manual
+
+} {} {}} C:/Users/Danial/Desktop/Project4-New/ConvolutionTopLevelTB.sv {1 {vlog -work work -sv -stats=none C:/Users/Danial/Desktop/Project4-New/ConvolutionTopLevelTB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}
